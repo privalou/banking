@@ -1,0 +1,6 @@
+driverClass: org.h2.Driver
+user: admin
+password: admin
+url: jdbc:h2:mem:banking;DB_CLOSE_DELAY=-1;INIT=runscript from 'src/main/resources/schema-and-data.sql'
+sqlDialect: H2
+autoCommit: false
